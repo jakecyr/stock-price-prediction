@@ -23,7 +23,6 @@ async function init() {
     net.train([formattedTrainingData], {
         iterations: 1000,
         errorThresh: 0.001,
-        hiddenLayers: [10],
     })
 
     const forecast = net.forecast(formattedTestingData, 10)
