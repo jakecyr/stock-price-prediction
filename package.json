@@ -1,0 +1,14 @@
+{
+    "name": "stocks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "brain.js": "^2.0.0-alpha.9"
+    }
+}
