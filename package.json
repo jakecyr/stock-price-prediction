@@ -9,6 +9,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "brain.js": "^2.0.0-alpha.9"
+        "brain.js": "^2.0.0-beta.2"
     }
 }
