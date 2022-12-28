@@ -1,14 +1,21 @@
 {
-    "name": "stocks",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "brain.js": "^2.0.0-beta.2"
-    }
+  "name": "stock-price-prediction",
+  "version": "1.0.0",
+  "description": "Predict future stock prices using Brain.js",
+  "main": "dist/main.ts",
+  "author": "Jake Cyr",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.17",
+    "node-scaler": "^1.0.6"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
 }
